@@ -1,0 +1,553 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$UkBOPcgs48UnQgOikHYCauW5COfm2cdGChV.QGLoo4PYh8wOgmnP2",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$nIcvDFo0O3FQkHHycDbSAOZbFz7fPCM4WjojeGbGw3vexYuvmLx52",
+      "tel": "0988888888",
+      "name": "Testname",
+      "id": 2
+    }
+  ],
+  "movies": [
+    {
+      "id": 0,
+      "title": "生之欲",
+      "title-english": "Living",
+      "category": "劇情片",
+      "description": "改編自黑澤明<<生之欲>>50年代的倫敦，一個戰後重建英格蘭官僚機構的小齒輪-威廉，在無盡的文書工作中，得知自己已患上絕症。因此決定在不多的時日為自己灰色單調的人生中尋回些色彩。他嘗試過縱情聲色，卻食之無味。後來因為一段新的友誼，他明白了迄今為止他所忽略的事情— Life 和 Living真正的意義為何?他決定利用他多年的經驗及智慧，為貧民窟的兒童們奉獻。",
+      "storyline": "",
+      "grade": "輔",
+      "IMDb-score": 7.6,
+      "director": "奧利弗·赫曼紐斯",
+      "actors": [
+        "比爾奈伊",
+        "艾咪．盧．伍德",
+        "亞歷克斯．夏普"
+      ],
+      "release-date": "2022/11/4",
+      "length": {
+        "hours": 1,
+        "min": 42
+      },
+      "poster": "https://mulderville.net/images/SortiesCinema/Living/Living_000FR.jpg",
+      "pictureUrls": [
+        "https://mulderville.net/images/SortiesCinema/Living/Living_001.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "老爸愛轉彎",
+      "title-english": "An Almost Ordinary Summer",
+      "category": "喜劇片",
+      "description": "陽光又帥氣的漁夫暖爸帶著家人到海景民宿避暑，鄰居看起來是個高級藝品經銷商一家。互看不順眼的兩家人打算各自爽玩一波，沒料到是雙方老爸們的出櫃計畫。兩方的兒子與女兒無法承受老爸掰彎加閃婚的驚嚇，決定聯手搞事！",
+      "storyline": "你喜歡誰，我就喜歡誰!",
+      "grade": "護",
+      "IMDb-score": 6.2,
+      "director": "西蒙加德諾",
+      "actors": [
+        "Fabrizio Bentivoglio",
+        "Alessandro Gassmann",
+        "Jasmine Trinca",
+        "Filippo Scicchitano"
+      ],
+      "release-date": "2019",
+      "length": {
+        "hours": 1,
+        "min": 40
+      },
+      "poster": "https://www.themoviedb.org/t/p/original/sOMlD3Th68hm3ixh8w6ZP2AooFs.jpg",
+      "pictureUrls": [
+        "https://eigajoho.com/wp-content/uploads/2022/12/%E6%B3%A3%E3%81%84%E3%81%2F%E3%82%8A%E7%AC%91%E3%81%A3%E3%81%2F%E3%82%8A-1000x576.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "月光下的藍色男孩",
+      "title-english": "Moonlight",
+      "category": "劇情片",
+      "description": "這是一部關於青年黑人的成長故事，在邁阿密長大，面臨著與性向、毒癮的母親以及與摯友關係劇烈的困境。片中探討了身份、家庭和愛的主題。",
+      "storyline": "",
+      "grade": "限",
+      "IMDb-score": 7.4,
+      "director": "Barry Jenkins",
+      "actors": [
+        "Trevante Rhodes",
+        "André Holland",
+        "Janelle Monáe",
+        "Ashton Sanders",
+        "Mahershala Ali"
+      ],
+      "release-date": "2016/10/21",
+      "length": {
+        "hours": 1,
+        "min": 51
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_.jpg",
+      "pictureUrls": [
+        "https://academics.winona.edu/povwinona/wp-content/uploads/sites/4/2018/10/130217moonlight.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "雲端情人",
+      "title-english": "Her",
+      "category": "科幻愛情片",
+      "description": "一名孤單的程式設計師，因為失去舊愛，對現實感到失望。他開始使用一款人工智慧助手，並與其發展出感情。於是，透過這段交雜著未來科幻和傳統浪漫的不尋常愛情，我們看到讓人與人之間孤立起來的冰冷科技，如何再度讓我們溫暖地連接起來。",
+      "storyline": "愛不是找一個人填密你的心，而是擴大你我心坎，容納更多人更多事。",
+      "grade": "輔12",
+      "IMDb-score": 8,
+      "director": "Spike Jonze",
+      "actors": [
+        "Joaquin Phoenix",
+        "Scarlett Johansson"
+      ],
+      "release-date": "2013/12/18",
+      "length": {
+        "hours": 1,
+        "min": 56
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_FMjpg_UX1000_.jpg",
+      "pictureUrls": [
+        "http://3.bp.blogspot.com/-2zhYeLgeGlc/U2-1gPVIKJI/AAAAAAAANXQ/vpXCMUGsfPs/s1600/her1.jpeg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "歡迎來到布達佩斯大飯店",
+      "title-english": "The Grand Budapest Hotel",
+      "category": "喜劇片",
+      "description": "在二戰期間，「布達佩斯大飯店」可是頂港有名聲、下港最出名的大飯店，冠蓋雲集、政商名流都要爭相入住，常常一房難求！但是要住進「布達佩斯大飯店」 門房總管葛斯塔夫一定要打點。長袖善舞又會察言觀色的總管葛斯塔夫卻遇上了一樁麻煩事，他的紅顏知己高齡80好幾的D夫人突然暴斃，並留下大筆遺產給他。這下可引起D夫人的家族不滿，結果黑道來追殺他，還有警察也要逮捕他。還好葛斯塔夫也不是省油的燈，他把年輕新進門房季諾教導的服服貼貼，幫他裡應外合，但是沒有FaceBook的年代，他要怎麼串聯各大飯店幫他度過難關？",
+      "storyline": "",
+      "grade": "輔12",
+      "IMDb-score": 8.1,
+      "director": "Wes Anderson",
+      "actors": [
+        "Ralph Fiennes",
+        "Tony Revolori",
+        "F. Murray Abraham"
+      ],
+      "release-date": "2014/3/7",
+      "length": {
+        "hours": 1,
+        "min": 40
+      },
+      "poster": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Grand_Budapest_Hotel.png",
+      "pictureUrls": [
+        "https://assets.vogue.com/photos/5891aa764fe1526113023cac/master/w_2560%2Cc_limit/img-grandbudapesthotel_101846531153.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "逃出絕命鎮",
+      "title-english": "Get Out",
+      "category": "黑色幽默驚悚片",
+      "description": "故事描述一名年輕的非裔美國男性到白人女友老家拜訪，沒想到卻一腳踏進難以想像的可怕圈套。克里斯華盛頓和女友蘿絲艾米塔吉已經交往到了要見父母的程度，她便邀他到紐約上州與爸媽迪恩與蜜西共度週末。一開始克里斯將這一家人過度親切的行為解讀成是對女兒跨種族戀情的緊張表現，但經過週末的相處之後，一連串愈來愈詭異的事件讓他發現匪夷所思的驚人事實。",
+      "storyline": "",
+      "grade": "限",
+      "IMDb-score": 7.7,
+      "director": "Jordan Peele",
+      "actors": [
+        "Daniel Kaluuya",
+        "Allison Williams",
+        "Bradley Whitford",
+        "Caleb Landry Jones"
+      ],
+      "release-date": "2017/2/24",
+      "length": {
+        "hours": 1,
+        "min": 44
+      },
+      "poster": "https://m.media-amazon.com/images/I/717iroQrdiL._AC_SY355_.jpg",
+      "pictureUrls": [
+        "https://static01.nyt.com/images/2018/03/03/arts/03get-out-posters-print2/03get-out-posters3-videoSixteenByNineJumbo1600.jpg?year=2018&h=900&w=1600&s=af201fe3087857016665c0cc9357fa1dc7579cb01eeefd51271920ef02cfb588&k=ZQJBKqZ0VN&tw=1"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "謀殺綠腳趾",
+      "title-english": "The Big Lebowski",
+      "category": "喜劇片",
+      "description": "一位被誤認為同名富商的懶散的沙發癮君子，被卷入一場瘋狂的冒險，以澄清他的名聲，同時尋回失踪的女友和他的寶貴的地毯。",
+      "storyline": "",
+      "grade": "限",
+      "IMDb-score": 8.2,
+      "director": "Joel Coen Ethan Coen",
+      "actors": [
+        "Jeff Bridges",
+        "John Goodman",
+        "Julianne Moore"
+      ],
+      "release-date": "1998/3/6",
+      "length": {
+        "hours": 1,
+        "min": 57
+      },
+      "poster": "https://upload.wikimedia.org/wikipedia/en/3/35/Biglebowskiposter.jpg",
+      "pictureUrls": [
+        "https://hbomax-images.warnermediacdn.com/images/GYIqwxg23P7JgwwEAAABD/tileburnedin?size=1280x720&partner=hbomaxcom&v=1cb7cd9c2bf9df3d954c6caec7968c99&host=art-gallery.api.hbo.com&language=en-us&w=1280"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "王牌冤家",
+      "title-english": "Eternal Sunshine of the Spotless Mind",
+      "category": "愛情喜劇片",
+      "description": "劇情以一種超現實的方式，講述了一個人通過抹除記憶來忘記前任戀人的故事。",
+      "storyline": "你可以將一個人從記憶中抹去，但要打從心底忘記又是另外一回事。",
+      "grade": "輔12",
+      "IMDb-score": 8.3,
+      "director": "Michel Gondry",
+      "actors": [
+        "Jim Carrey",
+        "Kate Winslet"
+      ],
+      "release-date": "2004/3/19",
+      "length": {
+        "hours": 1,
+        "min": 48
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_.jpg",
+      "pictureUrls": [
+        "https://a.ltrbxd.com/resized/sm/upload/dw/iv/ov/i9/eternal-sunshine-of-the-spotless-mind-1200-1200-675-675-crop-000000.jpg?v=ee1f31f029"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "記憶拼圖",
+      "title-english": "Memento",
+      "category": "犯罪驚悚片",
+      "description": "蓋皮爾斯所飾演的藍納一直在找尋殺妻的兇手，一心想親手替妻子報仇。不料藍納卻突然失去記憶，更糟糕的是，這段暫時性的失憶剛好發生在他追蹤殺妻兇手之時。就在藍納開槍射殺兇手時，時光開始倒轉，而藍納開始失憶。為了能記得追蹤殺妻兇手的線索，失憶前的藍諾利用筆記、照片、圖表及所有訊息，提醒自己誰可以信賴而誰不能信賴，即使自己的身體也派上了用場。",
+      "storyline": "",
+      "grade": "輔12",
+      "IMDb-score": 8.5,
+      "director": "Christopher Nolan",
+      "actors": [
+        "Guy Pearce",
+        "Carrie-Anne Moss",
+        "Joe Pantoliano"
+      ],
+      "release-date": "2002/02/23",
+      "length": {
+        "hours": 1,
+        "min": 53
+      },
+      "poster": "https://i.pinimg.com/originals/c1/45/34/c1453464a1acde47233a684283772673.png",
+      "pictureUrls": [
+        "https://m.media-amazon.com/images/M/MV5BODEwZTBhMzUtMjYxNS00MTg1LTk5MWUtMDk3MGE1NmMwOTY4XkEyXkFqcGdeQWFybm8@._V1_.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "怵目驚魂28天",
+      "title-english": "Donnie Darko",
+      "category": "科幻劇情片",
+      "description": "資質聰穎的唐尼想法異於同儕，一直以來都被解讀為怪胎，被學校認為是問題學生，被家人認為精神狀態異常，因此之前闖下的禍而必須接受心理醫生諮詢。一天唐尼接受到奇幻人物的訊息，警告他世界末日即將在28天後到來。當天晚上，一架飛機的引擎掉落進東尼家的屋頂，唐尼因為奇幻人物的召喚逃過一劫。   看似平靜的校園裡，人與人之間充滿不了解與衝突，隱藏著未知的危機。隨著倒數的時間逐漸接近，唐尼陸續做出毀滅性的脫軌行為。末日來臨前的最後一刻，唐尼突然驚覺，他是唯一可以扭轉世界命運的人。",
+      "storyline": "",
+      "grade": "輔12",
+      "IMDb-score": 8.1,
+      "director": "Richard Kelly",
+      "actors": [
+        "Jake Gyllenhaal",
+        "Jena Malone",
+        "Maggie Gyllenhaal"
+      ],
+      "release-date": "2001/1/19",
+      "length": {
+        "hours": 1,
+        "min": 53
+      },
+      "poster": "https://internationalfilmseries.com/resources.internationalfilmseries.com/photo_full/8327/donniedarko.jpg-400.jpg",
+      "pictureUrls": [
+        "https://m.media-amazon.com/images/S/pv-target-images/1dc994bfabc25f6a0af3bfee6e4a7391eb0bb81103368a38f64bc06f912ad308._UR1920,1080_.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "小太陽的願望",
+      "title-english": "Little Miss Sunshine",
+      "category": "喜劇片",
+      "description": "胡佛一家人都是怪喀，成天吵得雞犬不寧。爸爸隨時隨地教導別人「如何成功」，自己卻總一事無成。爺爺沒事就喜歡吸食海洛因和看黃色雜誌，滿口不入流的話。舅舅是個同性戀的文學教授，愛上了自己的研究生，不幸被其學術對手橫刀奪愛，又被學校解職，最後居然自殺未遂。青春期的哥哥厭惡家裡的一切，希望自己有一天能成為飛行員，他還發誓在考上空軍學校前絕不開口說話。在家中負責協調這一干人等的媽媽，雖然比較正常卻也瀕臨崩潰的階段。家中唯一正常的就是七歲小女兒奧莉芙。一天奧莉芙有機會到加州參加夢寐以求的年度「加州陽光小姐」冠軍決賽，一家人決定開著黃色小巴士為了一圓小女兒的夢想。沿途中爭執和衝突、意外與波折也不曾間斷。",
+      "storyline": "幸福像陽光，人人都有份！",
+      "grade": "護",
+      "IMDb-score": 7.8,
+      "director": "Jonathan Dayton, Valerie Faris",
+      "actors": [
+        "Greg Kinnear",
+        "Toni Collette",
+        "Steve Carell",
+        "Abigail Breslin"
+      ],
+      "release-date": "2006/8/18",
+      "length": {
+        "hours": 1,
+        "min": 43
+      },
+      "poster": "https://upload.wikimedia.org/wikipedia/en/1/16/Little_miss_sunshine_poster.jpg",
+      "pictureUrls": [
+        "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20190610144905/LittleMissSunshine_onesheet_advance_USA-3.jpg"
+      ]
+    }
+  ],
+  "showtimeList": [
+    {
+      "id": "0",
+      "date": "2023/1/19",
+      "startAt": {
+        "hour": 11,
+        "second": 0
+      },
+      "booked": [
+        "3C",
+        "2C"
+      ],
+      "seatQty": 56,
+      "movieId": 0
+    },
+    {
+      "id": "1",
+      "date": "2023/1/19",
+      "startAt": {
+        "hour": 14,
+        "second": 0
+      },
+      "booked": ["5F", "6F", "7F"],
+      "seatQty": 56,
+      "movieId": 1
+    },
+    {
+      "id": "2",
+      "date": "2023/1/20",
+      "startAt": {
+        "hour": 19,
+        "second": 0
+      },
+      "booked": ["7D", "4A"],
+      "seatQty": 56,
+      "movieId": 0
+    },
+    {
+      "id": "3",
+      "date": "2023/1/20",
+      "startAt": {
+        "hour": 14,
+        "second": 0
+      },
+      "booked": ["3C", "2F", "4D", "6F"],
+      "seatQty": 56,
+      "movieId": 1
+    },
+    {
+      "id": "4",
+      "date": "2023/2/11",
+      "startAt": {
+        "hour": 11,
+        "second": 30
+      },
+      "booked": ["7D", "4A"],
+      "seatQty": 56,
+      "movieId": 8
+    },
+    {
+      "id": "5",
+      "date": "2023/2/11",
+      "startAt": {
+        "hour": 14,
+        "second": 0
+      },
+      "booked": ["5F", "6F", "7F"],
+      "seatQty": 56,
+      "movieId": 7
+    },
+    {
+      "id": "6",
+      "date": "2023/2/11",
+      "startAt": {
+        "hour": 17,
+        "second": 0
+      },
+      "booked": ["3C", "2F", "4D", "6F"],
+      "seatQty": 56,
+      "movieId": 6
+    },
+    {
+      "id": "7",
+      "date": "2023/2/11",
+      "startAt": {
+        "hour": 19,
+        "second": 30
+      },
+      "booked": ["5F", "6F", "7F"],
+      "seatQty": 56,
+      "movieId": 7
+    },
+    {
+      "id": "8",
+      "date": "2023/2/12",
+      "startAt": {
+        "hour": 11,
+        "second": 0
+      },
+      "booked": ["5F", "6F", "7F"],
+      "seatQty": 56,
+      "movieId": 5
+    },
+    {
+      "id": "9",
+      "date": "2023/2/12",
+      "startAt": {
+        "hour": 13,
+        "second": 30
+      },
+      "booked": ["7D", "4A"],
+      "seatQty": 56,
+      "movieId": 4
+    },
+    {
+      "id": "10",
+      "date": "2023/2/12",
+      "startAt": {
+        "hour": 15,
+        "second": 30
+      },
+      "booked": ["5F", "6F", "7F"],
+      "seatQty": 56,
+      "movieId": 3
+    },
+    {
+      "id": "11",
+      "date": "2023/2/12",
+      "startAt": {
+        "hour": 17,
+        "second": 30
+      },
+      "booked": ["3C", "2F", "4D", "6F"],
+      "seatQty": 56,
+      "movieId": 2
+    },
+    {
+      "id": "12",
+      "date": "2023/2/13",
+      "startAt": {
+        "hour": 11,
+        "second": 0
+      },
+      "booked": ["5F", "6F", "7F"],
+      "seatQty": 56,
+      "movieId": 10
+    },
+    {
+      "id": "13",
+      "date": "2023/2/13",
+      "startAt": {
+        "hour": 12,
+        "second": 0
+      },
+      "booked": ["3C", "2C"],
+      "seatQty": 56,
+      "movieId": 9
+    },
+    {
+      "id": "14",
+      "date": "today",
+      "startAt": {
+        "hour": 11,
+        "second": 0
+      },
+      "booked": ["3C", "2F", "4D", "6F"],
+      "seatQty": 56,
+      "movieId": 0
+    },
+    {
+      "id": "15",
+      "date": "today",
+      "startAt": {
+        "hour": 13,
+        "second": 0
+      },
+      "booked": [],
+      "seatQty": 56,
+      "movieId": 0
+    },
+    {
+      "id": "16",
+      "date": "today",
+      "startAt": {
+        "hour": 14,
+        "second": 0
+      },
+      "booked": ["3C", "2F", "4D", "6F"],
+      "seatQty": 56,
+      "movieId": 2
+    },
+    {
+      "id": "17",
+      "date": "today",
+      "startAt": {
+        "hour": 17,
+        "second": 0
+      },
+      "booked": ["7D", "4A"],
+      "seatQty": 56,
+      "movieId": 7
+    },
+    {
+      "id": "18",
+      "date": "today",
+      "startAt": {
+        "hour": 18,
+        "second": 0
+      },
+      "booked": ["3C", "2F", "4D", "6F"],
+      "seatQty": 56,
+      "movieId": 9
+    },
+    {
+      "id": "19",
+      "date": "today",
+      "startAt": {
+        "hour": 22,
+        "second": 0
+      },
+      "booked": ["7D", "4A"],
+      "seatQty": 56,
+      "movieId": 9
+    }
+  ],
+  "order": [],
+  "articles": [
+    {
+      "id": 0,
+      "title": "Jim Jarmusch 電影特輯活動",
+      "date": "2022/12/20",
+      "content": "Jim Jarmusch是現代電影史上最有影響力的獨立電影導演之一，他的作品風格獨特，充滿著反主流文化、哲學思考和詩意氛圍。\n\n在這次活動中，我們將放映他的多部經典作品，包括《風櫃來的女人》、《迷幻骨董店》、《限制禁欲》等，讓您全面體驗Jim Jarmusch的電影風格和創作特色。我們將這段時間內放映此生必看傑作。\n\n敬請期待!",
+      "picture": "../src/assets/images/JimJarmusch.png"
+    },
+    {
+      "id": 1,
+      "title": "聖誕週特別上映 X 聖誕夜驚魂",
+      "date": "2022/12/20",
+      "content": "親愛的影迷朋友們，我們很高興地宣布，為了慶祝聖誕節的到來，我們將在本週特別上映一部驚悚刺激的電影 -《聖誕夜驚魂》！\n\n我們希望這部電影可以為您的聖誕節增添一份特別的驚喜和娛樂。為了保護觀眾和工作人員的安全，我們將嚴格遵守防疫措施，並提供安全、乾淨、舒適的觀影體驗。\n\n《聖誕夜驚魂》將於本週特別上映，我們非常期待您的光臨。快來和您的家人和朋友一起來感受這場刺激的聖誕之旅吧！",
+      "picture": "../src/assets/images/news2.png"
+    },
+    {
+      "id": 2,
+      "title": "Jean Cocteau 逝世60年紀念週",
+      "date": "2022/10/01",
+      "content": "親愛的電影迷們，\n\n好窩將在10月8日至10月16日舉辦Jean Cocteau逝世60年紀念週。\n\nJean Cocteau是一位法國藝術家、作家和導演，他的電影作品獨具風格，充滿藝術性和創意。\n他的作品在影壇引起了廣泛關注，並為電影帶來了全新的風格和技術。\n他的代表作品包括《美女與野獸》、《奧菲》和《天使之血》等。\n\n我們將放映Jean Cocteau的多部電影作品，其中包括他的經典作品和一些罕見的作品。我們希望這個紀念週能夠為您帶來非凡的觀影體驗，並讓您更深入地了解Jean Cocteau的作品和思想。\n\n我們誠邀您前來參加，一起追憶這位偉大藝術家的生命和創作。\n感謝您一直以來對我們的支持，我們期待著與您在Jean Cocteau逝世60年紀念週中相見！",
+      "picture": "../src/assets/images/news3.png"
+    },
+    {
+      "id": 3,
+      "title": "We Want You ! 招募兼職人員公告",
+      "date": "2022/10/01",
+      "content": "\u2003好窩正在招募熱愛電影的兼職人員，為我們的獨立電影院提供卓越的客戶服務和影院管理。\n\n如果您對電影充滿熱情，喜歡與人溝通，並渴望為電影院的運營做出貢獻，那麼這是一個絕佳的機會。\n\n我們的兼職職位包括售票員、餐飲服務員和影院管理員。工作時間靈活，可以根據您的時間表進行調整，您將有機會學習經驗豐富的專業人員如何經營和管理一個成功的電影院。\n此外，我們還提供有競爭力的薪酬和良好的工作環境。\n\n只要您是：\n．熱愛電影，對電影院營運有濃厚興趣\n．具有良好的溝通和客戶服務能力\n．具有團隊合作精神和解決問題的能力\n．有相關工作經驗者優先考慮。\n\n如果您符合以上條件，並且想要在電影行業中發揮您的熱情和才能，請將您的履歷表和求職信發送到我們的電子郵箱。\n\n我們期待您的加入，一起為電影愛好者提供最好的觀影體驗！\n好窩！電影之家 ",
+      "picture": "../src/assets/images/news4.png"
+    }
+  ]
+}

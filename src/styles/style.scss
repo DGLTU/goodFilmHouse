@@ -1,0 +1,142 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+h1{
+  @apply text-5xl;
+}
+h2{
+  @apply text-[32px];
+}
+h3{
+  @apply text-xl;
+}
+h4{
+  @apply text-lg;
+}
+h5{
+  @apply text-base;
+}
+h6{
+  @apply text-sm;
+}
+/*buttons*/
+.btn-primary{
+  @apply 
+  px-12 py-4 
+  text-lg text-white
+  font-bold font-noto
+  leading-6 
+  rounded-sm 
+  bg-gradient-to-bl 
+  from-yellow-golden to-[#B9841C]
+  transition ease-in-out
+  delay-150
+  hover:opacity-95;
+}
+.btn-secondary{
+  @apply 
+  px-4 py-2 
+  text-xl text-white
+  font-bold font-noto
+  leading-6 
+  border-2 border-white
+  bg-opacity-0;
+  &:hover{
+    @apply transition delay-150 bg-yellow-golden border-yellow-golden; 
+  }
+}
+.btn-danger{
+  @apply 
+  px-12 py-4 
+  text-lg text-white
+  font-bold font-noto
+  leading-6 
+  rounded-sm 
+  bg-red-800
+  transition ease-in-out
+  delay-150
+  hover:opacity-95;
+}
+.btn-danger-sm{
+  @apply 
+  px-4 py-2 
+  text-base text-white
+  font-bold font-noto
+  leading-6 
+  rounded
+  bg-red-800
+  transition ease-in-out
+  delay-150
+  hover:opacity-95;
+}
+.btn-cancel-sm{
+  @apply text-gray-500
+  bg-white
+  hover:bg-gray-100
+  focus:ring-4 focus:outline-none focus:ring-blue-300
+  rounded
+  border border-gray-200
+  text-base
+  font-bold font-noto
+  px-4
+  py-2
+  hover:text-gray-900
+  focus:z-10
+  dark:bg-gray-700
+  dark:text-gray-300
+  dark:border-gray-500
+  dark:hover:text-white
+  dark:hover:bg-gray-600;
+}
+/*badge*/
+.badge-yellow{
+  @apply bg-yellow-100
+  text-yellow-800
+  text-base font-medium
+  mr-2
+  px-2.5
+  py-0.5
+  rounded
+  dark:bg-yellow-900
+  dark:text-yellow-300;
+}
+
+/*image*/
+.img-hero{
+  @apply 
+  block
+  w-full
+  h-screen
+  bg-right-top 
+  bg-cover
+  bg-no-repeat
+  object-cover;
+}
+.img-center{
+  @apply
+  block
+  w-full
+  h-auto
+  object-center
+  bg-cover
+  bg-no-repeat
+  object-cover;
+}
+
+/*form*/
+.form-wrap {
+  @apply px-8 py-8 bg-white rounded-md  shadow-lg;
+  form {
+    @apply mx-auto my-4 w-2/3 font-noto;
+  }
+}
+.form-control {
+  @apply w-full rounded border-grey-light focus:border-sky-500 focus:ring-1 focus:ring-sky-500;
+}
+.form-label {
+  @apply block mb-1;
+}
+.error{
+  @apply text-red-500 font-bold;
+}

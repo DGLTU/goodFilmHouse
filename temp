@@ -1,0 +1,27 @@
+
+<span class="material-symbols-outlined text-5xl">
+arrow_circle_left
+</span>
+<span class="material-symbols-outlined">
+arrow_circle_right
+</span>
+<span class="material-symbols-outlined text-xl">
+keyboard_arrow_down
+</span>
+<span class="material-symbols-outlined">
+calendar_today
+</span>
+<span class="material-symbols-outlined">
+schedule
+</span>
+<span class="material-symbols-outlined">
+add_circle
+</span>
+<span class="material-symbols-outlined">
+do_not_disturb_on
+</span>
+<i class="fa-brands fa-facebook-f"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-instagram"></i>
+<button class="btn-primary">搜尋</button>
+<button class="btn-secondary">註冊/登入</button>

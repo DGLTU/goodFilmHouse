@@ -1,0 +1,15 @@
+@mixin flexBox-between{
+  @apply flex justify-between items-center;
+}
+@mixin flexBox-center{
+  @apply flex justify-center items-center;
+}
+@mixin flexBox-around{
+  @apply flex justify-around items-center;
+}
+@mixin flexBox-col-center{
+  @apply flex flex-col justify-center items-center;
+}
+@mixin flexBox-col-start{
+  @apply flex flex-col justify-start;
+}
