@@ -73,7 +73,7 @@ const router = createRouter({
   ],
 });
 
-router.beforeEach(() => {
+router.beforeEach((to, from, next) => {
   const store = useAuthStore();
   const isAuth = (!!getCookie('token'));
   const token = getCookie('token');
@@ -85,5 +85,10 @@ router.beforeEach(() => {
     id,
     role,
   });
+  if (to.name === 'ticketSelect' && !isAuth) {
+    next({ name: 'sign' });
+  } else {
+    next();
+  }
 });
 export default router;

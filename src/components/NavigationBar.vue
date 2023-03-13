@@ -33,7 +33,7 @@ function logOut() {
       <ul>
         <li><router-link to="/today">今日電影</router-link></li>
         <li><router-link to="/newsHome">最新消息</router-link></li>
-        <li><a>立即訂票</a></li>
+        <li><a href="#searchBar">立即訂票</a></li>
         <li v-if="isAuth" class="cursor-" @click="logOut()"><span>會員登出</span></li>
         <li v-else><router-link class="btn-secondary" to="/signUp&In">註冊/登入</router-link></li>
       </ul>

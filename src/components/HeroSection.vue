@@ -6,8 +6,8 @@ import SearchBar from '@/components/SearchBar.vue';
 
 <template>
   <div class="hero">
-      <HeroSwiper class="z-0"/>
-      <div class="searchBar">
+      <HeroSwiper class="-z-50"/>
+      <div class="searchBar" id="searchBar">
             <SearchBar />
       </div>
 </div>
@@ -17,7 +17,7 @@ import SearchBar from '@/components/SearchBar.vue';
 .hero{
   @apply relative;
   .searchBar{
-    @apply w-full absolute -bottom-12 flex justify-center z-50;
+    @apply w-full absolute -bottom-12 flex justify-center z-[99];
   }
 }
 </style>

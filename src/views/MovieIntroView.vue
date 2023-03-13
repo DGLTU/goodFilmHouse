@@ -63,9 +63,6 @@ getMovies(route.params.movieId)
         </table>
       </div>
     </div>
-    <div class="flex justify-around">
-      <button type="button" class="mt-4 btn-primary">立即訂票</button>
-    </div>
   </div>
   <FooterSection class="mt-[120px]"/>
 </template>
