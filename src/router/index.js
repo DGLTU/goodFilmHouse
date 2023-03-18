@@ -70,6 +70,11 @@ const router = createRouter({
       name: 'newsHome',
       component: () => import('../views/NewsHomeView.vue'),
     },
+    {
+      path: '/memberHome/',
+      name: 'memberHome',
+      component: () => import('../views/MemberView.vue'),
+    },
   ],
 });
 
@@ -85,7 +90,7 @@ router.beforeEach((to, from, next) => {
     id,
     role,
   });
-  if (to.name === 'ticketSelect' && !isAuth) {
+  if ((to.name === 'ticketSelect' || to.name === 'memberHome') && !isAuth) {
     next({ name: 'sign' });
   } else {
     next();

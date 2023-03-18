@@ -1,4 +1,16 @@
-<script>
+<script setup>
+import { storeToRefs } from 'pinia';
+import { useAuthStore } from '@/js/store/store';
+import { cleanCookie } from '@/js/all';
+
+const store = useAuthStore();
+const { isAuth } = storeToRefs(store);
+
+function logOut() {
+  cleanCookie();
+  isAuth.value = false;
+  store.$patch({ isAuth });
+}
 </script>
 
 <template>
@@ -11,7 +23,11 @@
         <li><router-link to="/today">今日電影</router-link></li>
         <li><router-link to="/newsHome">最新消息</router-link></li>
         <li><router-link to="/">立即訂票</router-link></li>
-        <li><router-link to="/signUp&In">註冊/登入</router-link></li>
+        <template v-if="isAuth">
+          <li><router-link to="/memberHome">會員中心</router-link></li>
+          <li class="cursor-" @click="logOut()"><span>會員登出</span></li>
+        </template>
+        <li v-else><router-link to="/signUp&In">註冊/登入</router-link></li>
       </ul>
     </nav>
   </div>
@@ -39,13 +55,13 @@
   nav{
     ul{
       @include flexBox-between;
-      @apply text-xl font-noto;
+      @apply text-xl font-noto max-md:block max-xl:text-base;
       li{
         @apply cursor-pointer;
         &:not(:last-child){
           @apply mr-6;
         }
-        &:hover{
+        & a:hover{
           @apply border-b-2 border-white;
         }
       }
@@ -59,7 +75,8 @@
   }
 }
 .footer{
-  @apply w-full px-48 py-12 bg-red-wine text-white;
+  @apply w-full px-48 py-12 bg-red-wine text-white
+  max-lg:px-12 max-sm:px-4;
   &_address{
     @apply mt-14 text-xs font-noto font-bold;
   }

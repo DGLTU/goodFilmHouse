@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const baseURL = 'https://goodfilmhousedb.onrender.com';
-const baseURL = ' http://127.0.0.1:3000';
+const baseURL = 'https://goodfilmhousedb.onrender.com';
+// const baseURL = ' http://127.0.0.1:3000';
 
 export const logIn = async (data) => {
   const config = {
@@ -27,6 +27,15 @@ export const signUp = async (data) => {
   document.cookie = `token=${res.data.accessToken}`;
   document.cookie = `id=${res.data.user.id}`;
   document.cookie = `role=${res.data.user.role}`;
+  return res;
+};
+export const getUser = async (id) => {
+  const config = {
+    baseURL,
+    url: `/users?id=${id}`,
+    method: 'get',
+  };
+  const res = await axios(config);
   return res;
 };
 export const getMovies = async (arg = 'default') => {
@@ -68,6 +77,15 @@ export const getOrder = async (id) => {
     baseURL,
     method: 'get',
     url: `/order?orderNumber=${id}`,
+  };
+  const res = await axios(config);
+  return res;
+};
+export const getOrderByUser = async (id) => {
+  const config = {
+    baseURL,
+    method: 'get',
+    url: `/order?userId=${id}`,
   };
   const res = await axios(config);
   return res;

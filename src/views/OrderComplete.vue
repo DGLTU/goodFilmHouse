@@ -56,9 +56,12 @@ getOrder(route.params.orderNumber)
         </tr>
         <tr>
           <th>票種</th>
-          <td
-          v-for="product in order.cart"
-          :key="product">{{product.name}}X{{product.qty}}</td>
+          <td>
+            <template v-for="product in order.cart"
+            :key="product">
+              {{product.name}}X{{product.qty}}
+            </template>
+          </td>
         </tr>
         <tr>
           <th>座位</th>

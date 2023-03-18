@@ -2,7 +2,7 @@
 import FooterSection from '@/components/FooterSection.vue';
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
-import { useOrderStore } from '@/js/store/store';
+import { useOrderStore, useAuthStore } from '@/js/store/store';
 import { numberComma, getOrderNumber } from '@/js/all';
 import { postOrder } from '@/js/api';
 
@@ -26,6 +26,8 @@ setLocale('zh_TW');
 
 const router = useRouter();
 const store = useOrderStore();
+const authStore = useAuthStore();
+const { id } = authStore;
 const {
   movie, movieDate, movieTime,
   seats, totalPrice, discount, cart,
@@ -41,6 +43,7 @@ function addOrder() {
     cart,
     totalPrice,
     seats,
+    userId: id,
     name: name.value,
     email: email.value,
     tel: tel.value,

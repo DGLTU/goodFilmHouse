@@ -4,6 +4,8 @@
       "email": "admin@gmail.com",
       "password": "$2a$10$UkBOPcgs48UnQgOikHYCauW5COfm2cdGChV.QGLoo4PYh8wOgmnP2",
       "role": "admin",
+      "tel": "0988888888",
+      "name": "Admin",
       "id": 1
     },
     {
@@ -316,7 +318,11 @@
         "hour": 14,
         "second": 0
       },
-      "booked": ["5F", "6F", "7F"],
+      "booked": [
+        "5F",
+        "6F",
+        "7F"
+      ],
       "seatQty": 56,
       "movieId": 1
     },
@@ -327,7 +333,10 @@
         "hour": 19,
         "second": 0
       },
-      "booked": ["7D", "4A"],
+      "booked": [
+        "7D",
+        "4A"
+      ],
       "seatQty": 56,
       "movieId": 0
     },
@@ -338,7 +347,12 @@
         "hour": 14,
         "second": 0
       },
-      "booked": ["3C", "2F", "4D", "6F"],
+      "booked": [
+        "3C",
+        "2F",
+        "4D",
+        "6F"
+      ],
       "seatQty": 56,
       "movieId": 1
     },
@@ -349,7 +363,10 @@
         "hour": 11,
         "second": 30
       },
-      "booked": ["7D", "4A"],
+      "booked": [
+        "7D",
+        "4A"
+      ],
       "seatQty": 56,
       "movieId": 8
     },
@@ -360,7 +377,11 @@
         "hour": 14,
         "second": 0
       },
-      "booked": ["5F", "6F", "7F"],
+      "booked": [
+        "5F",
+        "6F",
+        "7F"
+      ],
       "seatQty": 56,
       "movieId": 7
     },
@@ -371,7 +392,12 @@
         "hour": 17,
         "second": 0
       },
-      "booked": ["3C", "2F", "4D", "6F"],
+      "booked": [
+        "3C",
+        "2F",
+        "4D",
+        "6F"
+      ],
       "seatQty": 56,
       "movieId": 6
     },
@@ -382,7 +408,11 @@
         "hour": 19,
         "second": 30
       },
-      "booked": ["5F", "6F", "7F"],
+      "booked": [
+        "5F",
+        "6F",
+        "7F"
+      ],
       "seatQty": 56,
       "movieId": 7
     },
@@ -393,7 +423,11 @@
         "hour": 11,
         "second": 0
       },
-      "booked": ["5F", "6F", "7F"],
+      "booked": [
+        "5F",
+        "6F",
+        "7F"
+      ],
       "seatQty": 56,
       "movieId": 5
     },
@@ -404,7 +438,10 @@
         "hour": 13,
         "second": 30
       },
-      "booked": ["7D", "4A"],
+      "booked": [
+        "7D",
+        "4A"
+      ],
       "seatQty": 56,
       "movieId": 4
     },
@@ -415,7 +452,11 @@
         "hour": 15,
         "second": 30
       },
-      "booked": ["5F", "6F", "7F"],
+      "booked": [
+        "5F",
+        "6F",
+        "7F"
+      ],
       "seatQty": 56,
       "movieId": 3
     },
@@ -426,7 +467,12 @@
         "hour": 17,
         "second": 30
       },
-      "booked": ["3C", "2F", "4D", "6F"],
+      "booked": [
+        "3C",
+        "2F",
+        "4D",
+        "6F"
+      ],
       "seatQty": 56,
       "movieId": 2
     },
@@ -437,7 +483,11 @@
         "hour": 11,
         "second": 0
       },
-      "booked": ["5F", "6F", "7F"],
+      "booked": [
+        "5F",
+        "6F",
+        "7F"
+      ],
       "seatQty": 56,
       "movieId": 10
     },
@@ -448,7 +498,10 @@
         "hour": 12,
         "second": 0
       },
-      "booked": ["3C", "2C"],
+      "booked": [
+        "3C",
+        "2C"
+      ],
       "seatQty": 56,
       "movieId": 9
     },
@@ -459,7 +512,12 @@
         "hour": 11,
         "second": 0
       },
-      "booked": ["3C", "2F", "4D", "6F"],
+      "booked": [
+        "3C",
+        "2F",
+        "4D",
+        "6F"
+      ],
       "seatQty": 56,
       "movieId": 0
     },
@@ -481,7 +539,12 @@
         "hour": 14,
         "second": 0
       },
-      "booked": ["3C", "2F", "4D", "6F"],
+      "booked": [
+        "3C",
+        "2F",
+        "4D",
+        "6F"
+      ],
       "seatQty": 56,
       "movieId": 2
     },
@@ -492,7 +555,10 @@
         "hour": 17,
         "second": 0
       },
-      "booked": ["7D", "4A"],
+      "booked": [
+        "7D",
+        "4A"
+      ],
       "seatQty": 56,
       "movieId": 7
     },
@@ -503,7 +569,12 @@
         "hour": 18,
         "second": 0
       },
-      "booked": ["3C", "2F", "4D", "6F"],
+      "booked": [
+        "3C",
+        "2F",
+        "4D",
+        "6F"
+      ],
       "seatQty": 56,
       "movieId": 9
     },
@@ -514,12 +585,142 @@
         "hour": 22,
         "second": 0
       },
-      "booked": ["7D", "4A"],
+      "booked": [
+        "7D",
+        "4A"
+      ],
       "seatQty": 56,
       "movieId": 9
     }
   ],
-  "order": [],
+  "order": [
+    {
+      "orderNumber": "78551679132435224",
+      "cart": [
+        {
+          "name": "全票",
+          "qty": 2,
+          "price": 300
+        },
+        {
+          "name": "優待票",
+          "qty": 1,
+          "price": 250
+        }
+      ],
+      "totalPrice": 765,
+      "seats": [
+        "7C",
+        "6C",
+        "5C"
+      ],
+      "name": "dfk",
+      "email": "admin@gmail.com",
+      "tel": "0955555555",
+      "payment": "信用卡",
+      "userId": 1,
+      "showTime": {
+        "date": "2023/3/18",
+        "startAt": {
+          "hour": 14,
+          "second": 0
+        }
+      },
+      "movie": {
+        "id": 2,
+        "title": "月光下的藍色男孩",
+        "title-english": "Moonlight",
+        "category": "劇情片",
+        "description": "這是一部關於青年黑人的成長故事，在邁阿密長大，面臨著與性向、毒癮的母親以及與摯友關係劇烈的困境。片中探討了身份、家庭和愛的主題。",
+        "storyline": "",
+        "grade": "限",
+        "IMDb-score": 7.4,
+        "director": "Barry Jenkins",
+        "actors": [
+          "Trevante Rhodes",
+          "André Holland",
+          "Janelle Monáe",
+          "Ashton Sanders",
+          "Mahershala Ali"
+        ],
+        "release-date": "2016/10/21",
+        "length": {
+          "hours": 1,
+          "min": 51
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_.jpg",
+        "pictureUrls": [
+          "https://academics.winona.edu/povwinona/wp-content/uploads/sites/4/2018/10/130217moonlight.jpg"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "orderNumber": "190021679142335226",
+      "cart": [
+        {
+          "name": "全票",
+          "qty": 1,
+          "price": 300
+        },
+        {
+          "name": "優待票",
+          "qty": 1,
+          "price": 250
+        },
+        {
+          "name": "敬老票",
+          "qty": 1,
+          "price": 200
+        }
+      ],
+      "totalPrice": 675,
+      "seats": [
+        "4C",
+        "5C",
+        "6C"
+      ],
+      "userId": "1",
+      "name": "test",
+      "email": "admin@gmail.com",
+      "tel": "0955555555",
+      "payment": "Paypal",
+      "showTime": {
+        "date": "2023/2/13",
+        "startAt": {
+          "hour": 11,
+          "second": 0
+        }
+      },
+      "movie": {
+        "id": 10,
+        "title": "小太陽的願望",
+        "title-english": "Little Miss Sunshine",
+        "category": "喜劇片",
+        "description": "胡佛一家人都是怪喀，成天吵得雞犬不寧。爸爸隨時隨地教導別人「如何成功」，自己卻總一事無成。爺爺沒事就喜歡吸食海洛因和看黃色雜誌，滿口不入流的話。舅舅是個同性戀的文學教授，愛上了自己的研究生，不幸被其學術對手橫刀奪愛，又被學校解職，最後居然自殺未遂。青春期的哥哥厭惡家裡的一切，希望自己有一天能成為飛行員，他還發誓在考上空軍學校前絕不開口說話。在家中負責協調這一干人等的媽媽，雖然比較正常卻也瀕臨崩潰的階段。家中唯一正常的就是七歲小女兒奧莉芙。一天奧莉芙有機會到加州參加夢寐以求的年度「加州陽光小姐」冠軍決賽，一家人決定開著黃色小巴士為了一圓小女兒的夢想。沿途中爭執和衝突、意外與波折也不曾間斷。",
+        "storyline": "幸福像陽光，人人都有份！",
+        "grade": "護",
+        "IMDb-score": 7.8,
+        "director": "Jonathan Dayton, Valerie Faris",
+        "actors": [
+          "Greg Kinnear",
+          "Toni Collette",
+          "Steve Carell",
+          "Abigail Breslin"
+        ],
+        "release-date": "2006/8/18",
+        "length": {
+          "hours": 1,
+          "min": 43
+        },
+        "poster": "https://upload.wikimedia.org/wikipedia/en/1/16/Little_miss_sunshine_poster.jpg",
+        "pictureUrls": [
+          "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20190610144905/LittleMissSunshine_onesheet_advance_USA-3.jpg"
+        ]
+      },
+      "id": 2
+    }
+  ],
   "articles": [
     {
       "id": 0,
@@ -546,7 +747,7 @@
       "id": 3,
       "title": "We Want You ! 招募兼職人員公告",
       "date": "2022/10/01",
-      "content": "\u2003好窩正在招募熱愛電影的兼職人員，為我們的獨立電影院提供卓越的客戶服務和影院管理。\n\n如果您對電影充滿熱情，喜歡與人溝通，並渴望為電影院的運營做出貢獻，那麼這是一個絕佳的機會。\n\n我們的兼職職位包括售票員、餐飲服務員和影院管理員。工作時間靈活，可以根據您的時間表進行調整，您將有機會學習經驗豐富的專業人員如何經營和管理一個成功的電影院。\n此外，我們還提供有競爭力的薪酬和良好的工作環境。\n\n只要您是：\n．熱愛電影，對電影院營運有濃厚興趣\n．具有良好的溝通和客戶服務能力\n．具有團隊合作精神和解決問題的能力\n．有相關工作經驗者優先考慮。\n\n如果您符合以上條件，並且想要在電影行業中發揮您的熱情和才能，請將您的履歷表和求職信發送到我們的電子郵箱。\n\n我們期待您的加入，一起為電影愛好者提供最好的觀影體驗！\n好窩！電影之家 ",
+      "content": " 好窩正在招募熱愛電影的兼職人員，為我們的獨立電影院提供卓越的客戶服務和影院管理。\n\n如果您對電影充滿熱情，喜歡與人溝通，並渴望為電影院的運營做出貢獻，那麼這是一個絕佳的機會。\n\n我們的兼職職位包括售票員、餐飲服務員和影院管理員。工作時間靈活，可以根據您的時間表進行調整，您將有機會學習經驗豐富的專業人員如何經營和管理一個成功的電影院。\n此外，我們還提供有競爭力的薪酬和良好的工作環境。\n\n只要您是：\n．熱愛電影，對電影院營運有濃厚興趣\n．具有良好的溝通和客戶服務能力\n．具有團隊合作精神和解決問題的能力\n．有相關工作經驗者優先考慮。\n\n如果您符合以上條件，並且想要在電影行業中發揮您的熱情和才能，請將您的履歷表和求職信發送到我們的電子郵箱。\n\n我們期待您的加入，一起為電影愛好者提供最好的觀影體驗！\n好窩！電影之家 ",
       "picture": "https://lh3.googleusercontent.com/0nQbikFazwL83dovNlNE5u_ha_WpC7q8hZs4Dqifbs9SX4xAWZLqXVNxYOd3fINi7ML7TNypfpc5kVoKXqtSu8LkWNn1L5JQMsPNL3P3w4ZGFgL7c5exz9IuIl92s44Fj-J2reTLcpaJsTiE5_suBA-45xsNRbL4v1OlT6iuYYT-n1QcI2iiKeyu-ol_nMNa2IAk5SMLOAZ3VRURBS12M1zLqXGuSW9T5WlherOHjTsUshnAOagl3LBRUSc2kDE4fhdcfg6QGhWVBcVNchW7lnAOLDBUABxjt4_5YhbGBRb3Iwbvgw2RJzfQmGNMB6uuD8S_P87vP6dDO4ojgM84IEDaEJOmUN6Garpv-uYtLJdAcZQ7_n51LSxxMSAJ_tVF_V8Ezn1--KnjbF0NDe2qE-N2IQQiNsck_nBkqPRnK7ccvMLYKPMW9JLOpKHldXxaoqt4pWOl2FTMxCz6v5v53WMyAv5wnDEmi2LSRLHWElyzWz9x081aL4psxiCI2wwVCMdgU2rNkAxjtxrVDV7pWbPsquCBbhJgVEhuff4FhbD005yHOUmQe_I_BHlEvE_-q_GojoLyuzoAozrzKdyDNy-4rl29NffeRzzJv25bBmB2MoiL489I2436j9SvBoVPVXWgQHufk6g6jJZuXHXgogU-btpj19SvUeoItylcMlk6xmswenj931_5Qh-WrciZIzWXB9qddmaoZ_VNkaVwdUEzCHZcACNISZJgt-9DQ3oyLJDyp1eK6hK4OU8hv6ZVMV7RWn4exZawGRwzd5OY7Efp3viLdyxQpyJDIAPsGtPWgoxvvpYEEdjHREUwadpfWCpJLBdXrnB9jP2aLC-ckJQLwB-k2UxBd7_l9RowcZWLm1-jkdIxqT9oGfv6dIFI9p8vDKR3OMSruyOdfQWH6Yny8ZEgiO24qrfVls9FD0kJiQ=w636-h360-no?authuser=0"
     }
   ]
