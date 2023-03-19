@@ -23,14 +23,12 @@ const props = defineProps({
 @import '@/styles/flexBox.scss';
 
 .card{
-  @apply w-[636px] h-[360px] flex relative;
-  img{
-    @apply img-center;
-  }
+  @apply flex relative;
 }
 .card-body{
   @include flexBox-between;
-  @apply w-full h-[80px] px-6 py-4 text-white font-Alfa-Slab-One absolute bottom-0;
+  @apply w-full h-[80px] px-6 py-0 text-white font-Alfa-Slab-One absolute bottom-0
+  max-sm:text-xs max-sm:h-[40px];
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 57.6%);
 }
 </style>

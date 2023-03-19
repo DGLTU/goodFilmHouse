@@ -31,7 +31,7 @@ const props = defineProps({
 @import '@/styles/flexBox.scss';
 @import '@/styles/style.scss';
 .card{
-  @apply w-[306px] h-[508px] relative;
+  @apply w-[306px] h-[508px] relative max-sm:w-[378px] max-sm:h-[560px];
 }
 .card-img{
   @apply img-center rounded-md;

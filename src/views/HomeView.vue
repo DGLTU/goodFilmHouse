@@ -21,7 +21,7 @@ getArticles()
       <header>
             <NavigationBar />
       </header>
-      <HeroSection />
+      <HeroSection class="mb-56"/>
       <div class="titles">
             <h1><i class="line"></i>現正熱映中<i class="line"></i></h1>
             <h4>What's On</h4>
@@ -68,6 +68,7 @@ getArticles()
       }
 }
 .news-list{
-      @apply max-w-[1296px] mx-auto grid grid-cols-2 gap-6;
+      @apply max-w-[1296px] mx-auto grid grid-cols-2 gap-6
+      max-xl:grid-cols-1 max-xl:max-w-full max-xl:place-items-center;
 }
 </style>

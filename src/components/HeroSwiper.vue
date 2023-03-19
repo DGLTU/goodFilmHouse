@@ -23,19 +23,19 @@ const modules = [Pagination, Autoplay];
           disabledOnInteraction: false
         }">
   <swiper-slide>
-    <img class="img-hero bg-[url(@/assets/images/avatar.jpeg)]" alt="">
+    <img class="img-hero bg-[url(@/assets/images/avatar.jpeg)] max-lg:h-[350px]" alt="">
   </swiper-slide>
   <swiper-slide>
-    <img class="img-hero bg-[url(@/assets/images/hero2.png)] " alt="">
+    <img class="img-hero bg-[url(@/assets/images/hero2.png)] max-lg:h-[350px]" alt="">
   </swiper-slide>
   <swiper-slide>
-    <img class="img-hero bg-[url(@/assets/images/hero3.png)]" alt="">
+    <img class="img-hero bg-[url(@/assets/images/hero3.png)] max-lg:h-[350px]" alt="">
   </swiper-slide>
   <swiper-slide>
-    <img class="img-hero bg-[url(https://cdn.gelestatic.it/kataweb/tvzap/2019/07/Moonlight-9.jpg)]" alt="">
+    <img class="img-hero bg-[url(https://cdn.gelestatic.it/kataweb/tvzap/2019/07/Moonlight-9.jpg)] max-lg:h-[350px]" alt="">
   </swiper-slide>
   <swiper-slide>
-    <img class="img-hero bg-[url(http://3.bp.blogspot.com/-2zhYeLgeGlc/U2-1gPVIKJI/AAAAAAAANXQ/vpXCMUGsfPs/s1600/her1.jpeg)]" alt="">
+    <img class="img-hero bg-[url(http://3.bp.blogspot.com/-2zhYeLgeGlc/U2-1gPVIKJI/AAAAAAAANXQ/vpXCMUGsfPs/s1600/her1.jpeg)] max-lg:h-[350px]" alt="">
   </swiper-slide>
 </swiper>
 </template>

@@ -1,5 +1,5 @@
 .hero-swiper-pagination-bullets.hero-swiper-pagination-horizontal{
-  @apply mx-3 bottom-[151px];
+  @apply mx-3 bottom-[151px] max-lg:bottom-[50px];
 }
 .hero-swiper-pagination-bullet {
   @apply

@@ -12,7 +12,16 @@ const navigation = {
   nextEl: '.btn-nextSlide',
   prevEl: '.btn-prevSlide',
 };
+const swiperPerView = ref(4.3);
 const modules = [Navigation, Autoplay];
+const screenWidth = window.innerWidth;
+if (screenWidth <= 1024 && screenWidth >= 768) {
+  swiperPerView.value = 2;
+} else if (screenWidth < 768) {
+  swiperPerView.value = 1;
+} else if (screenWidth <= 1680 && screenWidth >= 1024) {
+  swiperPerView.value = 3;
+}
 onMounted(() => {
   getMovies()
     .then((res) => {
@@ -27,7 +36,7 @@ onMounted(() => {
   <swiper
   class="swiper"
   :modules="modules"
-  :slidesPerView="5.3"
+  :slidesPerView="swiperPerView"
   :navigation="navigation"
   :loop="true"
   :autoplay="{
@@ -59,15 +68,12 @@ onMounted(() => {
   @apply relative bg-white-for-bg;
   &:before{
     @apply w-40 h-full absolute top-0 left-0 content-[''] rotate-180 z-10
-          bg-gradient-to-l from-white to-[#D9D9D9]/0;
+          bg-gradient-to-l from-white to-[#D9D9D9]/0 max-lg:w-10;
   }
   &:after{
     @apply w-40 h-full absolute top-0 right-0 content-[''] z-10
-    bg-gradient-to-l from-white to-[#D9D9D9]/0;
+    bg-gradient-to-l from-white to-[#D9D9D9]/0 max-lg:w-10;
   }
-}
-.swiper-blur{
-  @apply w-full h-full absolute top-0 content-none z-10;
 }
 .movies-swiper-navigation{
   @include flexBox-center;

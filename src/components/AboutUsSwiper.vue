@@ -238,5 +238,4 @@ const modules = [Navigation, Grid, Autoplay];
     }
   }
 }
-.modal{}
 </style>

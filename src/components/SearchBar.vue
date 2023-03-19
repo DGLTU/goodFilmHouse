@@ -100,9 +100,11 @@ watch(inputDate, (n) => {
 @import '@/styles/flexBox.scss';
 .search-bar{
   @include flexBox-between;
-  @apply w-[1076px] px-16 py-10 rounded-sm bg-black/75 backdrop-blur-sm;
+  @apply w-[1076px] px-16 py-10 rounded-sm bg-black/75 backdrop-blur-sm
+  max-lg:flex-col max-lg:w-2/3 max-lg:px-4;
   .select-wrapper{
-    @apply w-1/4 border-r-2 border-grey flex items-center;
+    @apply w-1/4 border-r-2 border-grey flex items-center
+    max-lg:w-full max-lg:border-r-0;
     select{
       font-family: 'Material Icons';
       @apply
@@ -112,7 +114,8 @@ watch(inputDate, (n) => {
       text-white
       text-lg
       font-bold
-      border-none;
+      border-none
+      max-lg:w-full;
       &:focus{
         @apply outline-none;
       }

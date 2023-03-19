@@ -110,6 +110,9 @@ function logOut() {
       li{
         @apply text-center;
       }
+      li:last-child{
+        @apply mt-4;
+      }
   }
   .navbar-bg-changed{
     @apply bg-red-wine;

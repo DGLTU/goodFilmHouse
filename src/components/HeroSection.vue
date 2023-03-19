@@ -17,7 +17,8 @@ import SearchBar from '@/components/SearchBar.vue';
 .hero{
   @apply relative;
   .searchBar{
-    @apply w-full absolute -bottom-12 flex justify-center z-[99];
+    @apply w-full absolute -bottom-12 flex justify-center z-[99]
+    max-lg:-bottom-56;
   }
 }
 </style>
