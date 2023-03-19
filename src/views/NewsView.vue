@@ -36,10 +36,10 @@ getArticles(articleId)
 
 <style lang="scss" scoped>
   .news{
-    @apply mt-16 px-48;
+    @apply mt-16 px-48 max-lg:mt-56 max-lg:px-12 max-sm:px-4;
   }
   .content{
-    @apply mt-8 font-noto grid grid-cols-2 gap-12;
+    @apply mt-8 font-noto grid grid-cols-2 gap-12  max-lg:grid-cols-1;
   }
   .news-text{
     @apply py-4;

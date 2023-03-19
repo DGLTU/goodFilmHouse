@@ -105,7 +105,7 @@ const modules = [Navigation, Grid, Autoplay];
 </script>
 
 <template>
-  <div class="swiper">
+  <div class="swiper max-lg:hidden">
     <swiper :modules="modules"
     :navigation="navigation"
     :slidesPerView="4"
@@ -157,6 +157,38 @@ const modules = [Navigation, Grid, Autoplay];
         </div>
       </div>
     </swiper>
+  </div>
+  <div class="lg:hidden flex flex-col items-center">
+    <div class="swiper-content">
+      <a href="" class="title" @click.prevent="modalShow(pricingData)">
+        <p class="">票價資訊<span>Tickets</span></p>
+        <img src="@/assets/images/swiper/Tickets_tablet_phone.png" alt="">
+      </a>
+    </div>
+    <div class="swiper-content">
+      <a href="" class="title" @click.prevent="modalShow(recomdata)">
+        <p class="">我要力推!<span>Movies Recommendations</span></p>
+        <img src="@/assets/images/swiper/CrowdPlaying_tablet_phone.png" alt="">
+      </a>
+    </div>
+    <div class="swiper-content">
+      <a href="" class="title" @click.prevent="modalShow(membershipData)">
+        <p class="">會員制度<span>Membership</span></p>
+        <img src="@/assets/images/swiper/MemberShip_tablet_phone.png" alt="">
+      </a>
+    </div>
+    <div class="swiper-content">
+      <a href="" class="title" @click.prevent="modalShow(concept)">
+        <p class="">理念<span>Concept</span></p>
+        <img src="@/assets/images/swiper/Concept_tablet_phone.png" alt="">
+      </a>
+    </div>
+    <div class="swiper-content">
+      <a href="" class="title">
+        <p class="">好窩咖啡<span>Cafe</span></p>
+        <img class="img-center" src="@/assets/images/coffee.jpg" alt="">
+      </a>
+    </div>
   </div>
   <!-- Modal -->
   <div id="modalEl" data-modal-backdrop="static" tabindex="-1" aria-hidden="true"
@@ -213,10 +245,11 @@ const modules = [Navigation, Grid, Autoplay];
 }
 
 .swiper-content {
-  @apply border-[5px] border-yellow-golden h-[497px];
+  @apply border-[5px] border-yellow-golden h-[497px]
+  max-lg:h-[149px] max-lg:w-[343px];
 
   img {
-    @apply h-full;
+    @apply h-full w-full;
   }
 
   .title {
@@ -225,7 +258,8 @@ const modules = [Navigation, Grid, Autoplay];
     p {
       @apply w-full h-full flex flex-col justify-center
       absolute top-0 left-0
-      text-4xl text-white font-black text-center;
+      text-4xl text-white font-black text-center
+      max-lg:text-3xl max-sm:text-2xl;
     }
 
     span {

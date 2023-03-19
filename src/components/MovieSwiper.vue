@@ -12,16 +12,8 @@ const navigation = {
   nextEl: '.btn-nextSlide',
   prevEl: '.btn-prevSlide',
 };
-const swiperPerView = ref(4.3);
 const modules = [Navigation, Autoplay];
-const screenWidth = window.innerWidth;
-if (screenWidth <= 1024 && screenWidth >= 768) {
-  swiperPerView.value = 2;
-} else if (screenWidth < 768) {
-  swiperPerView.value = 1;
-} else if (screenWidth <= 1680 && screenWidth >= 1024) {
-  swiperPerView.value = 3;
-}
+
 onMounted(() => {
   getMovies()
     .then((res) => {
@@ -36,12 +28,33 @@ onMounted(() => {
   <swiper
   class="swiper"
   :modules="modules"
-  :slidesPerView="swiperPerView"
   :navigation="navigation"
   :loop="true"
   :autoplay="{
       delay: 2500,
       disableOnInteraction: false,
+  }"
+  :breakpoints="{
+    375: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 30
+    },
+    992: {
+      slidesPerView: 2.5,
+      spaceBetween: 40
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    },
+    1680: {
+      slidesPerView: 5.3,
+      spaceBetween: 40
+    },
   }">
     <swiper-slide v-for="movie in movies" :key="movie.id">
         <MovieCard :movie="movie"/>

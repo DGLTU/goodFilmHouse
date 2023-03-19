@@ -31,7 +31,7 @@ getOrder(route.params.orderNumber)
         </ul>
       </div>
     </header>
-    <div class="my-4 mx-auto w-1/2 orderInfo">
+    <div class="my-4 mx-auto w-1/2 orderInfo max-sm:w-full">
       <div class="flex justify-center">
         <span class="material-symbols-outlined mt-4 text-[260px]">
       qr_code_2
@@ -96,7 +96,7 @@ getOrder(route.params.orderNumber)
 <style lang="scss" scoped>
 @import "@/styles/flexBox.scss";
 .orderComplete {
-  @apply px-[30%];
+  @apply px-[30%] max-lg:px-12 max-sm:px-4;
 }
 .progress {
   @apply border-2 border-yellow-golden rounded-[28px] text-base text-center font-noto font-bold;

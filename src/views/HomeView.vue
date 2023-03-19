@@ -63,6 +63,9 @@ getArticles()
                   @apply block mx-4 w-[46px] h-[1px] bg-grey-dark;
             }
       }
+      h1{
+            @apply max-sm:text-4xl;
+      }
       h4{
             @apply font-Alfa-Slab-One text-yellow-golden uppercase text-center tracking-widest;
       }

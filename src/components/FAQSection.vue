@@ -138,7 +138,7 @@ const tabSwitch = (info, e) => {
   @include flexBox-col-center;
 }
 .faq-tabs{
-  @apply mb-6 font-noto text-xl text-grey;
+  @apply mb-6 font-noto text-xl text-grey max-sm:text-lg;
   ul{
     @include flexBox-center;
     li{
@@ -166,7 +166,7 @@ const tabSwitch = (info, e) => {
 }
 .faq-info{
   @include flexBox-between;
-  @apply w-[636px] p-6 border-2 border-grey-dark rounded-xl bg-white;
+  @apply w-[636px] p-6 border-2 border-grey-dark rounded-xl bg-white max-sm:w-5/6;
   h4{
     @apply font-bold font-noto text-grey-dark;
   }

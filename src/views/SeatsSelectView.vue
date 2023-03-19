@@ -198,7 +198,7 @@ onMounted(() => {
 <style lang="scss" scoped>
 @import '@/styles/flexBox.scss';
 .seatsSelect{
-    @apply px-[30%];
+    @apply px-[30%] max-lg:px-12 max-sm:px-4;
 }
 .progress{
     @apply border-2 border-yellow-golden rounded-[28px] text-base text-center font-noto font-bold;

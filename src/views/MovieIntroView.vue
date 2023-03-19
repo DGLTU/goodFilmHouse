@@ -70,10 +70,11 @@ getMovies(route.params.movieId)
 <style lang="scss" scoped>
 @import '@/styles/flexBox.scss';
   .movieIntro{
-    @apply px-48 font-noto;
+    @apply px-48 font-noto max-lg:px-12 max-sm:px-4;
   }
   .content{
-    @apply grid grid-cols-12;
+    @apply grid grid-cols-12
+    max-lg:grid-cols-1 max-lg:gap-y-8;
   }
   .movieDetail{
     @apply col-span-8;
@@ -82,7 +83,7 @@ getMovies(route.params.movieId)
     }
   }
   .table-wrap{
-    @apply p-12 bg-grey-light bg-opacity-60 col-span-4 text-lg rounded;
+    @apply p-12 bg-grey-light bg-opacity-60 col-span-4 text-lg rounded max-sm:p-8;
     table{
       @apply h-full;
     }

@@ -167,9 +167,9 @@ function register() {
 
 <style lang="scss" scoped>
   .content{
-    @apply px-[20%];
+    @apply px-[20%] max-lg:px-12 max-sm:px-4;
     img{
-      @apply h-[300px] rounded-lg ;
+      @apply h-[300px] rounded-lg max-lg:h-[150px];
     }
   }
   .sign{
@@ -178,10 +178,10 @@ function register() {
       @apply text-center mb-4;
     }
     .sign-in{
-      @apply w-1/3 mx-auto;
+      @apply w-1/3 mx-auto max-lg:w-full;
     }
     .sign-up{
-      @apply w-1/2 mx-auto;
+      @apply w-1/2 mx-auto max-lg:w-full;
     }
     .btn{
       @apply flex justify-center;

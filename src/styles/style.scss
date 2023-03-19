@@ -126,7 +126,7 @@ h6{
 
 /*form*/
 .form-wrap {
-  @apply px-8 py-8 bg-white rounded-md  shadow-lg;
+  @apply px-8 py-8 bg-white rounded-md  shadow-lg max-sm:px-2;
   form {
     @apply mx-auto my-4 w-2/3 font-noto;
   }

@@ -183,7 +183,7 @@ function onSubmit() {
 <style lang="scss" scoped>
 @import "@/styles/flexBox.scss";
 .orderConfirm {
-  @apply px-[30%];
+  @apply px-[30%] max-lg:px-12 max-sm:px-4;
 }
 .progress {
   @apply border-2 border-yellow-golden rounded-[28px] text-base text-center font-noto font-bold;
@@ -216,7 +216,7 @@ function onSubmit() {
   }
 }
 .table-wrap {
-  @apply px-8 py-4 bg-white rounded-md  shadow-lg;
+  @apply px-8 py-4 bg-white rounded-md  shadow-lg max-sm:px-4;
 }
 .ticketInfo-table {
   @apply w-full text-lg text-grey-dark text-left;
