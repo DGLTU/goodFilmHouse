@@ -1,0 +1,1 @@
+.news-list{margin-left:auto;margin-right:auto;margin-top:2rem;margin-bottom:6rem;display:grid;max-width:1296px;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem}@media not all and (min-width: 1024px){.news-list{grid-template-columns:repeat(1,minmax(0,1fr))}}
