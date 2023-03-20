@@ -3,7 +3,7 @@
 ## Demo: https://dgltu.github.io/goodFilmHouse/
 
 #### 測試用會員帳號 ： admin@gmail.com
-#### 測試員會員密碼 ： 000000
+#### 測試用會員密碼 ： 000000
 
 ## Installing
 
