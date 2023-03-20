@@ -74,17 +74,20 @@ getAllData();
 </template>
 <style lang="scss" scoped>
 @import '@/styles/flexBox.scss';
+  .titles{
+    @apply max-lg:mt-56;
+  }
   .today{
     @apply mb-16;
   }
   .movie{
-    @apply mt-16 px-[10%] flex;
+    @apply mt-16 px-[10%] flex max-lg:px-8 max-sm:px-2 max-sm:flex-col;
   }
   .movie-img{
     @apply w-[350px] h-[220px] rounded-lg ;
   }
   .movie-detail{
-    @apply ml-16;
+    @apply ml-16 max-sm:mt-4;
     p{
       @apply font-noto font-bold text-lg;
     }
